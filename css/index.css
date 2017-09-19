@@ -1,0 +1,91 @@
+@charset "utf-8";
+ 
+ /* 首页样式 */
+.ad-lump{ width: 100%;}
+
+.content-bar{ padding: 10px 0; background: #efefef;}
+.content-list{ background: #fff;}
+.content-top{ position: relative; height: 65px;}
+.content-top i{ position: absolute; left: -10px; top: 15px; background:url(../images/index/img.png) no-repeat; width: 160px; height: 56px;}
+.content-top i.coupon{ background-position:-249px 0;}
+.content-top i.exchange{ background-position:-88px 0;}
+.content-top li a{ margin-top: 30px; margin-right: 15px; font-size: 14px; color: #0766b1;}
+
+.content-ul { margin-top: 30px;}
+.content-ul li{ float: left; width: 281px; margin-left: 6px; margin-bottom: 20px; border: solid 4px #fff; cursor: pointer;}
+.content-ul li a{ display: block;}
+.content-ul li:hover{ border: solid 4px #FF0000;}
+.content-ul .mes{ padding: 3px;}
+.content-ul .mes p{ margin: 10px 0 5px 0; font-size: 16px; color: #7e7e7e;}
+.content-ul .mes small{ font-size: 14px; color: #7e7e7e;}
+.content-ul .mes span{ color: #e60048;}
+.content-ul .mes span.exchange{ display: block; width: 88px; height: 30px; margin: 10px 0 5px 5px; line-height: 30px; text-align: center; background: #e60048; color: #fff;}
+
+.content-bar .advert{ margin: 10px auto; background: #fff;}
+.content-bar .advert img{ width: 100%;}
+
+.register-form{ position: absolute; z-index: 15; width: 486px; height: 438px; background: #fff; border-radius: 5px;}
+.register-form.h-350{ height: 350px;}
+.register-form .tt{ padding: 45px 0 20px 0; background: #0766b1; text-align: center; color: #fff; font-size: 16px; font-family: "微软雅黑"; border-radius: 5px 5px 0 0;}
+.register-form .tt i{ position: absolute; top: 5px; right: 5px; width: 9px; height: 9px; background: url(../images/index/img.png) no-repeat; background-position:0 0; cursor: pointer;}
+.register-form .user{ padding: 30px 0 20px 90px;}
+
+.register-form .user .item{ position: relative; width: 292px;}
+.register-form .user .btn{ position: absolute; right: 5px; top: 8px; width: 86px; height: 30px; background: #14b9ed; color: #fff; font-family: "微软雅黑"; border-radius: 5px; cursor: pointer;}
+.register-form .user .ipt{ width: 210px; height: 20px; padding: 12px 40px; margin-bottom: 10px; font-size: 14px; border: solid 1px #eee;}
+.register-form .user i{ position: absolute; left: 7.5px; top: 10px; width: 25px; height: 25px; background: url(../images/index/img.png) no-repeat;}
+.register-form .user i.mobile{ background-position:-36px 0;}
+.register-form .user i.message{ background-position:-10px 0;}
+.register-form .user i.password{ background-position:-62px 0;}
+
+.register-form .submit{ padding: 0 90px;}
+.register-form .submit .btn{ width: 292px; height: 40px; margin-bottom: 10px; background: url(../images/common/bg.jpg) repeat-x; color: #fff; border-radius: 5px; cursor: pointer;}
+.register-form .submit p{ font-size: 12px; text-align: center;}
+.register-form .submit span{ font-size: 12px; color: #0766b1; cursor: pointer;}
+
+.register-form .tt span{ display: block; float: left; width: 160px; height: 30px; color: #299bda; font-size: 16px; font-family: "微软雅黑"; text-align: center; cursor: pointer;}
+.register-form .tt span.cur{ color: #fff;}
+.register-form .tt span:first-child{ padding-left: 75px; border-right: solid 1px #1777c3;}
+
+/* 保险专区  */
+.content-top i.safe{ position: absolute; left: -10px; top: 15px; background:url(../images/safe/safe.png) no-repeat; width: 160px; height: 56px;}
+
+.safe-list{ padding: 25px 0px; background: #fff;}
+.safe-list i.hot{ position: absolute; left: -10px; top: 0px; background:url(../images/safe/hot.png) no-repeat; width: 44px; height: 44px;}
+.safe-a a{ padding-right: 15px; margin-top: 30px; margin-right: 15px; text-align: center; color: #737373; font-family: "微软雅黑";}
+.safe-a a.cur{ color: #0766b1;}
+.safe-list dl{ position: relative; margin: 10px 20px; padding: 0 10px; background: #F2FBFF; border: solid 1px #eee;}
+.safe-list dt img{ padding: 10px 0;}
+.safe-list .txt{ padding: 10px 0; font-family: "微软雅黑";}
+.safe-list .txt h2{ font-size: 24px; color: #0766b1; font-weight: bold;}
+.safe-list .txt span{ font-size: 18px; color: #818181;}
+.safe-list .txt ul{ margin-top: 10px;}
+.safe-list .txt li{ margin-bottom: 4px; font-size: 14px; color: #0766b1; font-weight: bold; font-size: 14px;}
+.safe-list .txt li span{ margin-left: 15px; color: #4b4b4b; font-size: 14px; font-weight: normal;}
+
+.safe-list .price{ padding: 55px 25px; width: 170px; height: 110px; border-left: solid 1px #eee;}
+.safe-list .price p{ font-size: 14px; color: #0766b1; font-family: "微软雅黑";}
+.safe-list .price span{ font-size: 16px; color: #FF7200;}
+.safe-list .price span.blue{ font-weight: bold; color: #0766b1;}
+.safe-list .price strong{ font-size: 36px; color: #FF7200;}
+.safe-list .price a{ display: block; width: 148px; height: 40px; margin-top: 10px; background: #0766b1; line-height: 40px; text-align: center; color :#fff; border-radius: 5px;}
+
+.progress{ width: 400px; margin-top: 20px; background: #fff;}
+.progress li{ float: left; width: 26px; height: 30px; text-align: center; line-height: 30px; border: solid 1px #c1c1c7; border-left: 0;}
+.progress li:first-child{ border-left: solid 1px #c1c1c7;}
+.progress li a.cur{ color: #5c5c5c; font-weight: bold;}
+.progress li a{ display: block;}
+.progress li.start,.progress li.end,.progress li.prev,.progress li.next{ width: 60px;}
+
+/* 附近油站 */
+.content-top i.oil{ position: absolute; left: -10px; top: 15px; background:url(../images/oil/oil.png) no-repeat; width: 160px; height: 56px;}
+
+.content-list .sel{ padding: 20px;}
+.content-list .sel span{ padding-top: 5px; margin-right: 5px; font-size: 14px; font-family: "微软雅黑";}
+.content-list .sel select{ float: left; padding: 7px; margin-right: 8px; width: 106px; height: 34px; border: solid 1px #d2d2d2; border-radius: 5px;}
+
+.oil-list{ margin: 20px 10px; background: #fff;}
+.oil-list li{ float: left; width: 550px; height: 200px; margin-bottom: 20px; margin-right: 10px; padding: 10px; background: #f2fbff; font-size: 18px; color: #818181; border: solid 1px #eee;}
+.oil-list li h2{ margin:5px 0; font-size: 20px; color: #0766b1; font-weight: bold;}
+.oil-list li p{ margin: 5px 0;}
+.oil-list li a{ display: block; width: 148px; height: 40px; margin-top: 40px; line-height: 40px; color: #fff; background: #0766b1; text-align: center; border-radius: 5px;}

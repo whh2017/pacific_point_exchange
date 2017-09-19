@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>实体产品验证结果</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="css/base.css"></link>
+	<link rel="stylesheet" href="css/common.css"></link>
+	<link rel="stylesheet" href="css/validate.css"></link>
+	<script src="js/jquery.js"></script>
+	<script src="js/mask.js"></script>
+	<script src="js/test.js"></script>
+</head>
+<body>
+	<script>WriteTop()</script>
+	<!-- 顶部 end -->
+	<div class="verify-content">
+		<div class="layout">					
+			<div class="verify-form">
+				<div class="txt clearfix">
+					<i class="write fl"></i>
+					<h2 class="fl">填写资料</h2>
+				</div>
+				<div class="form">
+					<ul>
+						<li>
+							<div class="tt fl">
+								<label class="fr">验证码：</label><span class="fr">*</span>
+							</div>
+							<input>
+						</li>
+						<li>
+							<div class="tt fl">
+								<label class="fr">手机号码：</label><span class="fr">*</span>
+							</div>
+							<input class="gain-code"><button>获取短信验证码( 60s )</button>
+						</li>
+						<li>
+							<div class="tt fl">
+								<label class="fr">短信验证码：</label><span class="fr">*</span>
+							</div>
+							<input>
+						</li>
+					</ul>
+					<div class="result">
+						<p class="tip"><i class="warn"></i>验证码为中经汇通积分权益卡，背面刮开涂层后二维码下9位数字。</p>
+						<a href="#" id="submit">下一步</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容 end -->
+	<script>WriteBottom()</script>
+	<div class="code"><img src="images/common/code.png"></div>
+	<!-- 正文内容 end -->
+	<div class="shade">
+		<div class="mask"></div>
+	</div>
+	<!-- 遮罩层 end-->		
+	<div class="result-code hide">
+		<div class="txt tc">
+			<h2>请保存好加油电子券图片到指定油站直接消费</h2>
+			<img src="images/local/code.jpg">
+			<p>电子券码</p>
+			<span>518518814</span>
+			<i id="r-close"></i>
+		</div>
+		<a href="#"></a>
+	</div>
+	<script>
+		$('#submit').click(function(){
+			MaskIt($('.mask'));
+			popup($('.result-code'));
+			$('.result-code').removeClass("hide");	
+		});
+
+		$('#r-close').click(function(){
+			UnMaskIt($('.mask'));	
+			$('.result-code').addClass("hide");	
+		});
+	</script>
+</body>
+</html>

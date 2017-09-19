@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* 验证 */
+.verify-content{ padding:10px 0 30px 0; background: #efefef;}
+
+.verify-form{ padding: 40px 20px; background: #fff;}
+.verify-form .txt{ margin-bottom: 20px;}
+
+.verify-form .txt i{ display: block; width: 30px; height: 30px; background: url(../images/validate/validate.png) no-repeat; margin-right: 10px; }
+.verify-form .txt i.home{ background-position:-74px 0;}
+.verify-form .txt i.write{ background-position:-44px 0;}
+.verify-form .txt h2{ margin-right: 20px; color: #424242; font-family: "微软雅黑"; font-weight: normal;}
+.verify-form .txt p{ margin-top: 12px; font-size: 12px;}
+.verify-form .txt p span{ color: red;}
+
+.verify-form .form{ width: 1000px; height: 380px; margin: 0 auto; background: #edf7ff;}
+.verify-form .form ul{ padding: 20px 0 0px 240px;}
+.verify-form .form li{ height: 40px; margin-bottom: 10px; font-size: 14px;}
+.verify-form .form li span{ margin-right: 5px; margin-top: 3px; color: red;}
+.verify-form .form li button{ width: 160px; height: 40px; margin-left: 10px; background: #f58637; line-height: 40px; text-align: center; font-size: 12px; color: #fff; border-radius: 5px; cursor: pointer;}
+.verify-form .form li input{ height: 40px; width: 330px; margin-left: 10px; border: solid 1px #ced2d5; line-height: 40px; text-indent: 10px;}
+.verify-form .form li input.gain-code{ width: 160px;}
+.verify-form .form li select{ float: left; width: 104px; height: 40px; padding: 7px; margin-left: 10px; border: solid 1px #ced2d5; text-indent: 10px;}
+.verify-form .form li .tt{ width: 120px; height: 40px; line-height: 40px;}
+
+.verify-form .form .tip{ position: relative; width: 315px; margin-left: 390px; color: #bb0011; font-size: 12px;}
+.verify-form .form .tip i{ position: absolute; top: 0px; left: -20px; width: 15px; height: 15px; background: url(../images/validate/validate.png) no-repeat; background-position: -104px 0;}
+.verify-form .form .result a{ display: block; width: 335px; height: 40px; margin-left: 370px; margin-top: 20px; background: url(../images/common/bg.jpg) repeat-x; line-height: 40px; text-align: center; color: #fff; font-family: "微软雅黑"; border-radius: 5px;}
+
+.verify-form .form .result a.confirm{ background: #ff7a23;}
+
+.result-code{ position: absolute; z-index:10; width: 340px; height: 300px; padding: 40px 20px; background: #fff; border-radius: 15px;}
+.result-code .txt{ position: relative;}
+.result-code .txt i{ position: absolute; top: -60px; right: -50px; width: 44px; height: 44px; background: url(../images/validate/validate.png) no-repeat; background-position:0 0; cursor: pointer;}
+.result-code .txt h2{ width: 100%; margin-bottom: 40px; font-size: 16px; color: #333; font-family: "微软雅黑"; font-weight: bold;}
+.result-code .txt p{ margin-top: 20px; margin-bottom: 10px; font-size: 18px; color: #333; font-family: "微软雅黑";}
+.result-code .txt span{ font-size: 30px; color: #0065b3; font-weight: bold;}

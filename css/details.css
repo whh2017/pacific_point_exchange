@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* 商品详情 */
+.product-details{ padding: 40px 20px;}
+.product-details .img{ display: table-cell; width: 376px; height: 376px; vertical-align: middle; text-align:center; *display: block; *font-size: 250px; *font-family:Arial; border: solid 1px #eee;}
+.product-details .img img{ vertical-align:middle;}
+.product-details .txt{ margin-left: 20px;}
+.product-details .txt h2{ margin: 10px; color: #333; font-size: 24px; font-family: "微软雅黑";}
+.product-details .sale{ width: 700px; height: 80px; padding: 20px; background: #ecf7ff;}
+.product-details .sale p{ margin-bottom: 10px; font-size: 16px; color: #e60048; font-weight: bold;}
+.product-details .sale span{ font-size: 12px; color: #e60048;}
+
+.product-details .exchange{ margin-top: 290px; *margin-top: 160px;}
+.product-details .exchange a{ display: block; width: 220px; height: 42px; color: #fff; background: #e60048; line-height: 42px; font-family: "微软雅黑"; border-radius: 5px; text-align: center;}
+.product-details .exchange p{ margin: 10px 20px; font-size: 12px; color: #ababab;}
+.product-details .exchange p .num{ color: #000;}
+
+.purchase-message{ border: solid 1px #eee; background: #f6f6f6;}
+.purchase-message .tabs li{ float: left; width: 149px; height: 60px; color:#5c5c5c; font-size: 14px; border-right: solid 1px #eee; border-top: solid 3px #F6F6F6; border-bottom: solid 1px #F6F6F6; line-height: 60px; text-align: center; cursor: pointer;}
+.purchase-message .tabs li.cur{ color: #0b6bb3; background: #fff; border-top: solid 3px #0b6bb3; font-weight: bold;}
+
+.tabs-content{ padding: 30px 45px; background: #fff;}
+.tabs-content li h2{ padding-left: 10px; margin-bottom: 10px; font-size: 16px; color: #0b6bb3; font-family: "微软雅黑"; border-left: solid 5px #0b6bb3;}
+.tabs-content li p{ margin-bottom: 30px; font-size: 12px; color: #808080; line-height: 20px;}
+.tabs-content .img-box-max{ display: table-cell; width: 1190px; vertical-align: middle; text-align:center; *display: block; *font-size: 250px; *font-family:Arial;}
+.tabs-content .img-box-max img{ vertical-align:middle;}

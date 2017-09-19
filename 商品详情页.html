@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>保险专区</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="css/base.css"></link>
+	<link rel="stylesheet" href="css/common.css"></link>
+	<link rel="stylesheet" href="css/details.css"></link>
+	<script src="js/jquery.js"></script>
+	<script src="js/test.js"></script>
+</head>
+<body>
+	<script>WriteTopNoli()</script>
+	<!-- 顶部 end -->
+	<div class="product-details clearfix layout">
+		<div class="fl">
+			<div class="img">
+				<img src="images/local/100-a.jpg">
+			</div>
+			</div>
+		<div class="txt fl">
+			<h2>100元中石油加油券</h2>
+			<div class="sale fl">
+				<p>售价100元</p>
+				<span>所需积分:10000分</span>
+			</div>
+			<div class="exchange clearfix">
+				<a href="#" class="fl">我要兑换</a>
+				<p class="fl"><span class="num">33</span>人已兑换</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="purchase-message layout">
+		<ul class="tabs clearfix">
+			<li class="cur"><p>购买须知</p></li>
+			<li><p>商家位置</p></li>
+		</ul>
+		<ul class="tabs-content">
+			<li>
+				<h2>商品详情</h2>
+				<p>
+					1.本产品属电子加油券，属特价产品，购买前必须先进行实名认证，通过后，方可购买。<br>
+					2.本产品购买成功后，可获得25张200元电子加油券，可分次消费、不兑现、不找零。<br>
+					3.加油前请告知油站工作人员为广东省中石油电子加油券，并根据加油券面额告知加油数量。使用时无需预约，不限使用张数。<br>
+					4.单次加油金额超出广东中石油电子加油券的面值，可使用现金或刷卡支付。<br>
+					5.本产品自发码后即买即用，180天内有效，支持过期退款，退款手续费为10%。<br>
+					6.使用范围:可在广东省中石油各大加油站使用。
+				</p>
+				<div class="img-box-max">
+					<img src="images/local/details.jpg">
+				</div>
+			</li>
+			<li class="hide">
+				<h2>页面二</h2>
+				<p>
+					1.本产品属电子加油券，属特价产品，购买前必须先进行实名认证，通过后，方可购买。<br>
+					2.本产品购买成功后，可获得25张200元电子加油券，可分次消费、不兑现、不找零。<br>
+					3.加油前请告知油站工作人员为广东省中石油电子加油券，并根据加油券面额告知加油数量。使用时无需预约，不限使用张数。<br>
+					4.单次加油金额超出广东中石油电子加油券的面值，可使用现金或刷卡支付。<br>
+					5.本产品自发码后即买即用，180天内有效，支持过期退款，退款手续费为10%。<br>
+					6.使用范围:可在广东省中石油各大加油站使用。
+				</p>
+			</li>
+		</ul>
+	</div>
+	<!-- 主体内容 end -->
+	<script>WriteBottom()</script>
+	<div class="code-map"><img src="images/common/code.png"></div>
+	<!-- 正文内容 end -->
+	<div class="shade">
+		<div class="mask"></div>
+	</div>
+	<!-- 遮罩层 end-->		
+	<script>
+		$('.tabs').on("click","li",function(){
+			var index = $(this).index();
+			var $curli = $('.tabs-content li:eq('+index+')')
+			$(this).siblings().removeClass('cur');
+			$(this).addClass("cur");
+			$curli.siblings().addClass('hide');
+			$curli.removeClass('hide');
+		});
+	</script>
+</body>
+</html>
